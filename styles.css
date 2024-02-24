@@ -1,0 +1,50 @@
+:root {
+    --green-light: #5eb646;
+    --green-dark: #1a6d37;
+
+}
+
+.header {
+    background-image: linear-gradient(to right, var(--green-dark),var(--green-light));
+}
+
+body{
+    background-color:#1a6d37;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.border-success{
+    color: var(--green-dark)!important;
+}
+.bg-success {
+    background-color: var(--green-light) !important;
+    border-color: var(--green-light) !important;
+}
+
+.btn-success {
+    background-color: var(--green-light) !important;
+    border-color: var(--green-light) !important;
+}
+
+.btn-success-dark {
+    background-color: var(--green-dark) !important;
+}
+
+.text-success {
+    color: var(--green-light) !important;
+}
+
+.text-success-dark {
+    color: var(--green-dark) !important;
+}
+
+.seccion1 {
+    background-image: url("img/seccion1.jpg");
+}
+
+.seccion2 {
+    background-image: url("img/seccion2.jpg");
+}
