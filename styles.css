@@ -16,6 +16,11 @@ body{
     background-color: #fff;
 }
 
+.card {
+    background-color: transparent !important;
+    border: none;
+}
+
 .border-success{
     color: var(--green-dark)!important;
 }
@@ -47,4 +52,8 @@ body{
 
 .seccion2 {
     background-image: url("img/seccion2.jpg");
+}
+
+li::marker{
+    color: var(--green-light) !important;
 }
