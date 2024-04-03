@@ -5,7 +5,10 @@
 }
 
 .header {
-    background-image: linear-gradient(to right, var(--green-dark),var(--green-light));
+    background-image:url("img/Header.png"),linear-gradient(to right, var(--green-dark),var(--green-light));
+    background-size: cover; 
+    background-position: center; /* Centra la imagen de fondo en el contenedor */
+    
 }
 
 body{
