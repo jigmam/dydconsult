@@ -11,54 +11,68 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7VEHJEZN4Q"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-7VEHJEZN4Q');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7VEHJEZN4Q');
     </script>
 </head>
 
 <body>
-    <div class="container text-center px-0">
+    <div class="container-fluid text-center">
+        <div class="card header bg-success">
+            <div class="row g-0">
 
-        <div class="row header bg-success mx-0" style="height: auto;">
-            <div class="col-md-6 d-flex flex-column align-items-start ms-5 ps-5">
-                <img src="img/logoD.png" class="w-50 py-3" alt="header">
-                <br>
-                <p class="text-light text-start display-3"><b>Generando<br>Resultados a <br>través de la gente.</b></p>
-                <br>
-                <button type="button" class="btn btn-success float-start info">Más información</button>
-                <br>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <div class="card mx-3">
+                            <img src="img/logoD.png" class="w-50" alt="logo">
+                            <div class="card-body">
+                                <p class="text-light text-start display-4"><b>Generando<br>Resultados a <br>través de la
+                                        gente.</b></p>
+                                <br>
+                                <button type="button" class="btn btn-success float-start info">Más información</button>
+                                <br>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col py-5">
+        <br>
+        <div class="row justify-content-md-center">
+
+            <div class="col-md-auto">
                 <h1 class="text-success-dark">¿Quiénes Somos?</h1>
-                <br>
             </div>
-        </div>
 
-        <div class="row d-flex flex-row align-items-center justify-content-center">
-            <div class="col-auto d-flex flex-column align-items-center">
-                <div class=" d-flex flex-column align-items-center w-50">
-                    <img src="img/lola.png" class="rounded w-100 mb-4" alt="Lola">
-                    <p class="text-nowrap fs-5 fw-bold text-white p-2 px-5 bg-success rounded-4 ">Lola Martínez-Abarca</p>
-                
+        </div>
+        <div class="row justify-content-md-evenly  justify-content-sm-evenly">
+            <div class="col col-xl-2 col-xs-2">
+                <div class="card">
+                    <img src="img/lola.png" class="card-img-top" alt="Lola">
+                    <div class="card-body">
+                        <p class="text-nowrap fs-5 fw-bold text-white p-2 bg-success rounded-4 ">Lola
+                            Martínez-Abarca</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-xl-2 col-xs-2">
+                <div class="card">
+                    <img src="img/Saida.png" class="card-img-top" alt="Saida">
+                    <div class="card-body">
+                        <p class="text-nowrap fs-5 fw-bold text-white p-2 bg-success rounded-4 ">Saida Campos Riera
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-auto d-flex flex-column align-items-center">
-                <div class=" d-flex flex-column align-items-center w-50">
-                    <img src="img/Saida.png" class="rounded w-100 mb-4" alt="Saida">
-
-                    <p class="text-nowrap fs-5 fw-bold text-white p-2 px-5 bg-success rounded-4 ">Saida Campos Riera</p>
-                </div>
-            </div>
         </div>
-
-        <br><br>
 
         <div class="row">
             <div class="col d-flex flex-column align-items-center">
@@ -69,38 +83,50 @@
 
         <br><br>
 
-        <div class="row">
-            <div class="col d-flex flex-column align-items-center justify-content-center">
-                <img src="img/Icono1.png" class="rounded float-start w-70 h-50" alt="Servicio al Cliente">
-                <br>
-                <h5 class="text-success-dark">Servicio al Cliente</h5>
-            </div>
+        <div class="row justify-content-md-evenly">
 
-            <div class="col d-flex flex-column align-items-center justify-content-center">
-                <img src="img/Icono2.png" class="rounded float-start w-70 h-50" alt="Aprendizaje Permanente">
-                <br>
-                <h5 class="text-success-dark">Aprendizaje Permanente</h5>
+            <div class="col col-sm-2">
+                <div class="card align-items-center">
+                    <img src="img/Icono1.png" class="card-img-top  w-50 rounded" alt="servicio al cliente">
+                    <div class="card-body">
+                        <p class="text-success-dark fs-5 fw-bold  text-nowrap">Servicio al Cliente</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col d-flex flex-column align-items-center justify-content-center">
-                <img src="img/Icono3.png" class="rounded float-start w-70 h-50" alt="Innovación">
-                <br>
-                <h5 class="text-success-dark">Innovación</h5>
+            <div class="col col-sm-2">
+                <div class="card align-items-center">
+                    <img src="img/Icono2.png" class="card-img-top w-50 rounded" alt="Aprendizaje Permanente">
+                    <div class="card-body">
+                        <p class="text-success-dark fs-5 fw-bold  text-nowrap">Aprendizaje Permanente</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col d-flex flex-column align-items-center justify-content-center">
-                <img src="img/Icono4.png" class="rounded float-start w-70 h-50" alt="Ética personal/profesional">
-                <br>
-                <h5 class="text-success-dark">Ética personal/profesional</h5>
+            <div class="col col-sm-2">
+                <div class="card align-items-center">
+                    <img src="img/Icono3.png" class="card-img-top w-50 rounded" alt="Innovación">
+                    <div class="card-body">
+                        <p class="text-success-dark   fs-5 fw-bold text-nowrap">Innovación</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col d-flex flex-column align-items-center justify-content-center">
-                <img src="img/Icono5.png" class="rounded float-start w-70 h-50" alt="Compromiso">
-                <br>
-                <h5 class="text-success-dark">Compromiso</h5>
+            <div class="col col-sm-2">
+                <div class="card align-items-center">
+                    <img src="img/Icono4.png" class="card-img-top w-50 rounded" alt="Ética personal/profesional">
+                    <div class="card-body">
+                        <p class="text-success-dark  fs-5 fw-bold  text-nowrap">Ética personal/profesional</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-2">
+                <div class="card align-items-center">
+                    <img src="img/Icono5.png" class="card-img-top w-50 rounded" alt="Compromiso">
+                    <div class="card-body">
+                        <p class="text-success-dark   fs-5 fw-bold text-nowrap">Compromiso</p>
+                    </div>
+                </div>
             </div>
         </div>
-      
+
         <div class="seccion1">
             <div class="row">
                 <div class="col my-5">
@@ -108,13 +134,14 @@
                     <br>
                 </div>
             </div>
-            <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+            <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content bg-dark ">
                         <div class="modal-body text-white mx-5">
                             <h3 class="modal-title text-success " id="serviceModalLabel">Título del Servicio</h3>
                             <img id="imagenServicio" src="" class="img-fluid mb-3 w-75" alt="Imagen del Servicio">
-                            
+
                             <div class="fs-5 text-start fw-bold" id="listaDetalles">
                                 <!-- Lista de detalles del servicio -->
                             </div>
@@ -126,28 +153,19 @@
                 </div>
             </div>
             <div class="card mb-3">
-                <div class="row g-0 align-items-center justify-content-center">
-                    <div class="col-md-4">
+                <div class="row g-0 align-items-center justify-content-evenly">
+                    <div class="col-md-3">
                         <img src="img/Seleccion.png" class="img-fluid rounded-start" alt="Seleccion">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="card-body">
-                            <div class="d-flex flex-column align-items-center">
-                                <div >
-                                    <div>
-                                        <h1 class="text-success text-start">Selección<br>de Talento</h1>
-                                        <hr class="border border-success border-3 w-25 opacity-75">
-                                    </div>
-    
-                                    <br>
-                                    <h3 class="text-success-dark">Lean Selection</h3>
-    
-                                    <br>
-                                    <button type="button" class="btn btn-success w-100"
-                                        data-toggle="modal" data-target="#serviceModal"
-                                        onclick="cargarContenido('Service1')">Saber más</button>
-                                </div>
-                                
+                            <div class="card-body text-start">
+                                <h2 class="text-success text-nowrap">Selección<br>de Talento</h2>
+                                <hr class="border border-success border-3 w-25 opacity-75">
+                                <h3 class="text-success-dark">Lean Selection</h3>
+                                <button type="button" class="btn btn-success w-100" data-toggle="modal"
+                                    data-target="#serviceModal" onclick="cargarContenido('Service1')">Saber
+                                    más</button>
                             </div>
                         </div>
                     </div>
@@ -155,58 +173,53 @@
             </div>
 
             <div class="card mb-3">
-                <div class="row flex-row-reverse g-0 align-items-center justify-content-center">
-
-                    <div class="col-md-4">
+                <div class="row g-0 flex-row-reverse align-items-center justify-content-evenly">
+                    <div class="col-md-3">
                         <img src="img/Gestion.png" class="img-fluid rounded-start" alt="Gestion">
                     </div>
-
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="card-body">
-                            <div class="d-flex flex-column align-items-center">
-                                <div >
-                                    <div>
-                                        <h1 class="text-success text-start">Gestión <br> de Talento</h1>
-                                        <hr class="border border-success border-3 w-25 opacity-75">
-                                    </div>
-    
-                                    <br>
-                                    <h3 class="text-success-dark">Basadas en<br> competencias</h3>
-    
-                                    <br>
-                                    <button type="button" class="btn btn-success w-100"
-                                    data-toggle="modal" data-target="#serviceModal"
-                                    onclick="cargarContenido('Service2')">Saber más</button>
-                                </div>
-                                
+                            <div class="card-body text-start">
+                                <h2 class="text-success text-nowrap">Gestión <br> de Talento</h2>
+                                <hr class="border border-success border-3 w-25 opacity-75">
+                                <br>
+
+                                <h3 class="text-success-dark">Basadas en<br> competencias</h3>
+                                <br>
+
+                                <button type="button" class="btn btn-success w-100" data-toggle="modal"
+                                    data-target="#serviceModal" onclick="cargarContenido('Service2')">Saber
+                                    más</button>
+
+
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
             </div>
 
             <div class="card mb-3">
-                <div class="row  g-0 align-items-center justify-content-center">
-                    <div class="col-md-4">
+                <div class="row  g-0 align-items-center justify-content-evenly">
+                    <div class="col-md-3">
                         <img src="img/Programas.png" class="img-fluid rounded-start" alt="Programas">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="card-body">
-                            <div class="d-flex flex-column align-items-center">
-                                <div >
-                                    <div>
-                                        <h1 class="text-success text-start">Programas<br> de Desarrollo</h1>
-                                        <hr class="border border-success border-3 w-25 opacity-75">
-                                    </div>
-    
-                                    <br>
-                    
-                                    <br>
-                                    <button type="button" class="btn btn-success w-100"
-                                    data-toggle="modal" data-target="#serviceModal"
-                                    onclick="cargarContenido('Service3')">Saber más</button>
-                                </div>
-                                
+                            <div class="card-body text-start">
+                                <h2 class="text-success text-nowrap">Programas<br> de Desarrollo</h2>
+                                <hr class="border border-success border-3 w-25 opacity-75">
+                                <br>
+
+                                <h3 class="text-success-dark">Basadas en<br> competencias</h3>
+                                <br>
+
+                                <button type="button" class="btn btn-success w-100" data-toggle="modal"
+                                    data-target="#serviceModal" onclick="cargarContenido('Service3')">Saber
+                                    más</button>
+
                             </div>
                         </div>
                     </div>
@@ -214,26 +227,23 @@
             </div>
 
             <div class="card mb-3">
-                <div class="row flex-row-reverse  g-0 align-items-center justify-content-center">
-                    <div class="col-md-4">
+                <div class="row flex-row-reverse  g-0 align-items-center justify-content-evenly">
+                    <div class="col-md-3">
                         <img src="img/Consultoria.png" class="img-fluid rounded-start float-left" alt="Consultoria">
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="card-body">
-                            <div class="d-flex flex-column align-items-center">
-                                <div >
-                                    <div>
-                                        <h1 class="text-success text-start">Consultoría<br> en Desarrollo <br>
-                                            Organizacional</h1>
-                                        <hr class="border border-success border-3 w-25 opacity-75">
-                                    </div>
-    
-                                    <br>
-                                    <button type="button" class="btn btn-success  w-100" data-toggle="modal" data-target="#serviceModal"
-                                        onclick="cargarContenido('Service4')">Saber más</button>
-                                </div>
-                                
+                            <div class="card-body text-start">
+                                <h2 class="text-success text-nowrap">Consultoría<br> en Desarrollo <br>
+                                    Organizacional</h2>
+                                <hr class="border border-success border-3 w-25 opacity-75">
+                                <br>
+
+                                <button type="button" class="btn btn-success  w-100" data-toggle="modal"
+                                    data-target="#serviceModal" onclick="cargarContenido('Service4')">Saber
+                                    más</button>
+
                             </div>
                         </div>
                     </div>
@@ -274,7 +284,7 @@
                             <div class="d-flex justify-content-center">
                                 <button type="submit" onclick="enviarCorreo()"
                                     class="btn btn-success-dark text-light col-md-5 mx-auto rounded-4">
-                                    <h5>Enviar</h5>
+                                    <p>Enviar</p>
                                 </button>
 
                             </div>
@@ -282,18 +292,71 @@
                     </form>
                 </div>
             </div>
-
-            <div class="row  bg-white mx-0">
-                <div class="col-md-12 ">
-                  <div class="card">
-                    <div class="card-body">
-                      <div class="image-container">
-                        <img src="img/logos.jpg" class="img-fluid" alt="Imagen">
-                      </div>
-                    </div>
-                  </div>
+            <div class="row bg-white  align-items-center justify-content-evenly flex-nowrap overflow-x-auto">
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/flor_aragua.jpeg" class="img-fluid" alt="Flor de Aragua">
+                </div>
+                
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/avicola_providencia.jpg" class="img-fluid" alt="Avicola Providencia">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/moore.jpg" class="img-fluid" alt="Moore">
+                </div>
+                
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/sura_de_venezuela_c_a_logo.jpeg" class="img-fluid" alt="Sura de Venezuela C.A Logo">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/asnca.png" class="img-fluid" alt="ASNCA">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/ovomar-featured.jpg" class="img-fluid" alt="Ovomar Featured">
                 </div>
             </div>
+            <div class="row bg-white  align-items-center justify-content-evenly flex-nowrap overflow-x-auto">
+                
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/danimex.png" class="img-fluid" alt="Danimex">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/logo_venefoil.png" class="img-fluid" alt="Logo Venefoil">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/marsoca-768x197.png" class="img-fluid" alt="Marsoca">
+                </div>
+                
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/EmpresasPolar2010.png" class="img-fluid" alt="Empresas Polar">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/bridgestone.png" class="img-fluid" alt="Bridgestone">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/celoven.jpg" class="img-fluid" alt="Celoven">
+                </div>
+            </div>
+            <div class="row bg-white  align-items-center justify-content-evenly flex-nowrap overflow-x-auto">
+                
+                
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/johnson-family.jpg" class="img-fluid" alt="Johnson Family">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/logo_general_mills_antes.jpg" class="img-fluid" alt="Logo General Mills Antes">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/punta_larga.png" class="img-fluid" alt="Punta Larga">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/Mampa_Logo.png" class="img-fluid" alt="Mampa Logo">
+                </div>
+                <div class="col-md-2 img-container">
+                    <img src="img/logos/logodestileria-1.png" class="img-fluid" alt="Logo Destilería">
+                </div>
+                
+            </div>
+      
 
             <div class="row bg-success py-5 align-items-center justify-content-center mx-0">
                 <!-- Columna para el logo principal -->
@@ -305,7 +368,7 @@
                 <div class="col-sm-4">
                     <div class="row justify-content-center">
                         <div class="col-2">
-                            
+
                             <img src="img/iconos/facebook.png" class="rounded w-100 h-auto" alt="logoD">
                         </div>
                         <div class="col-2">
