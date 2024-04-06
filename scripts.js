@@ -61,7 +61,7 @@ let service = {
     "subElements": [
       {
         "title": "",
-        "description": "Diseño, ejecución, Asesoría y Evaluación de proyectos de cambio organizacional, alinados al marco estratégico de la empresa, que respondan a sus requerimientos permitan capitalizar oportunidades presentas y futuras",
+        "description": "Diseño, ejecución, Asesoría y Evaluación de proyectos de cambio organizacional, alineados al marco estratégico de la empresa, que respondan a sus requerimientos y permitan capitalizar oportunidades presentas y futuras",
         "details": [
           "Visión – Misión – Valores",
           "Cultura Organizacional",
@@ -107,8 +107,7 @@ let service = {
         "details": [
           "Diseño y Aplicación de Assessment Center",
           "Entrevistas de Eventos Conductuales",
-          "Selección Exitosa de talento",
-          "3 Pasos Clave"
+          "Selección Exitosa de talento: 3 Pasos Clave"
         ]
       },
     ]
@@ -125,7 +124,7 @@ let service = {
           "Desarrollo de Lideres",
           "Integrando Equipos de Alto Desempeño",
           "Sensibilización y Gestión del Cambio",
-          "Rol Gerencial de los Procesos de Desarrollo de Talento"
+          "Rol Gerencial en los Procesos de Desarrollo de Talento"
         ]
       },
       {
