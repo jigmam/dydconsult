@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 let service = {
   "Service4": {
-    "title": "Consultoria en Desarrollo Organizacional",
+    "title": "Consultoría en Desarrollo Organizacional",
     "img": "img/Consultoria.png",
     "subElements": [
       {
