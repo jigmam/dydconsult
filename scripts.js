@@ -81,7 +81,7 @@ let service = {
         "details": [
           "Diseño Modelos de competencias Actitudinales y Técnicas",
           "Diseño Sistemas de Estimación, Calibración y Desarrollo de competencias",
-          "Estimación de Hi-Potencial",
+          "Estimación Hi-Potencial",
           "DNA Basado en Competencias"
         ]
       }
